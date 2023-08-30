@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   body{
+     font-family: Arial, sans-serif;
+     background-color: #f1f1f1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 90vh;
+   }
+   .cont{
+    width: 400px;
+    background-color: #fff;
+    text-align: start;
+    padding: 10px;
+    border-radius: 8px;
+   }
+   h1{
+   text-align: center;
+    color: #1e87f0;
+   }
+   .input{
+    color: #80808098;
+   display: flex;
+   flex-direction: column;
+   margin:20px;
+
+   }
+   input{
+    border:none;
+     border-bottom: 1px solid gray;
+     outline: none;
+     margin-bottom: 20px;
+     transition: border-color 0.2s;
+    }
+    label{
+        position: relative;
+        left: 5px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #636767e0;
+    }
+
+     .input input:focus,
+  .input input:valid {
+    border-color: #75a8dc;
+  }
+button {
+    display:inline-block;
+    margin-left: 20px;
+    background-color: #1e87f0;
+    top: -20px;
+    font-size: 12px;
+    color: #e4f1fd;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.2s;
+    outline: none;
+    width: 90%;
+    border: 1px solid black;
+  }
+  
+  button:hover {
+    background-color: #1472c4;
+  }
+  
+
+  
+</style>
+<body>
+    <div class="cont">
+        <form>
+            <h1>Login</h1>
+        <div class="input-label">
+              <div class="input">
+                <label for="">Username</label>
+                <input type="text" name="Username">
+              </div>
+
+              <div class="input">
+                <label for="">Password</label>
+                <input type="text" name="Username">
+             </div>
+             <button>Submit</button>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
